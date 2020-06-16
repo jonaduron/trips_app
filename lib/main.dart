@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tripsApp/trips_app_cupertino.dart';
 
 import 'trips_app.dart';
 

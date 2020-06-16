@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:tripsApp/favorite_button.dart';
+import 'package:trips_app/widgets/float_action_button_green.dart';
+
 
 class CardImage extends StatelessWidget {
 
-  String pathImage = 'assets/img/river';
+  String pathImage;
 
   CardImage(this.pathImage);
 
@@ -38,7 +39,7 @@ class CardImage extends StatelessWidget {
       alignment: Alignment(0.9, 1.1),
       children: <Widget>[
         card,
-        FavoriteButton(),
+        FloatActionButtonGreen(),
       ],
     );
   }

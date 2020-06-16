@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:tripsApp/description_place.dart';
-import 'package:tripsApp/header_appbar.dart';
-import 'package:tripsApp/review_list.dart';
+import 'package:trips_app/place/ui/widgets/description_place.dart';
+import 'package:trips_app/place/ui/widgets/review_list.dart';
+
+import 'header_appbar.dart';
 
 class HomeTrip extends StatelessWidget {
   @override 

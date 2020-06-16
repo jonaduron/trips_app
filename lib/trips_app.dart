@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tripsApp/home_trip.dart';
-import 'package:tripsApp/profile.dart';
-import 'package:tripsApp/search_trips.dart';
+import 'package:trips_app/place/ui/screens/home_trip.dart';
+import 'package:trips_app/place/ui/screens/search_trips.dart';
+import 'package:trips_app/user/ui/screens/profile_trips.dart';
+
 
 class TripsApp extends StatefulWidget {
   
@@ -18,7 +19,7 @@ class _TripsAppState extends State<TripsApp> {
   final List<Widget> widgetsChildren = [
     HomeTrip(),
     SearchTrips(),
-    Profile(),
+    ProfileTrips(),
   ];
 
   void onTapTapped(int index) {
@@ -58,4 +59,7 @@ class _TripsAppState extends State<TripsApp> {
       ),
     );
   }
+}
+
+class Profile {
 }

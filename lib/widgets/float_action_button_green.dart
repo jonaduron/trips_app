@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FavoriteButton extends StatefulWidget {
+class FloatActionButtonGreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() { 
-    return _FavoriteButtonState();
+    return _FloatActionButtonGreenState();
   }
 }
 
-class _FavoriteButtonState extends State<FavoriteButton> {
+class _FloatActionButtonGreenState extends State<FloatActionButtonGreen> {
   
   void onPressedFav() {
     Scaffold.of(context).showSnackBar(

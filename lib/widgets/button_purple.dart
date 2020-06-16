@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Button extends StatelessWidget {
+class ButtonPurple extends StatelessWidget {
 
   String buttonText;
 
-  Button(this.buttonText);
+  ButtonPurple(this.buttonText);
 
   @override 
   Widget build(BuildContext context) {

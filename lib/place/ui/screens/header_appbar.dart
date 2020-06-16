@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tripsApp/back_gradient.dart';
-import 'package:tripsApp/card_image_list.dart';
+import 'package:trips_app/place/ui/widgets/card_image_list.dart';
+import 'package:trips_app/widgets/back_gradient.dart';
 
 class HeaderAppBar extends StatelessWidget {
 
